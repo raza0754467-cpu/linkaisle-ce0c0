@@ -1,0 +1,5 @@
+[build]
+  command = "tar -xzf linkaisle-bundle.tar.gz && npm install && npm run build"
+
+[build.environment]
+  NODE_VERSION = "22"
